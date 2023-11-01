@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="js/seg_grau.js"></script>
-    <link rel="icon" href="img/logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="seg_grau.js"></script>
+    <link rel="icon" href="img/logo.png" />
     <title>Segundo Grau</title>
-</head>
+  </head>
 
-<body class="background">
-
+  <body class="background">
     <h1>CALCULADORA DE EQUAÇÃO DO SEGUNDO GRAU</h1>
-    <br>
+    <br />
     <container class="calculadora">
-        <label for="a">
-            INSIRA O VALOR DE A <br><br><input id="input_a" type="text">
-        </label>
-        <br><br><br>
-        <label for="b">
-            INSIRA O VALOR DE B <br><br> <input id="input_b" type="text">
-        </label>
-        <br><br><br>
-        <label for="c">
-            INSIRA O VALOR DE C <br><br> <input id="input_c" type="text">
-        </label>
-        <br><br><br>
+      <label for="a">
+        INSIRA O VALOR DE A <br /><br /><input id="input_a" type="text" />
+      </label>
+      <br /><br /><br />
+      <label for="b">
+        INSIRA O VALOR DE B <br /><br />
+        <input id="input_b" type="text" />
+      </label>
+      <br /><br /><br />
+      <label for="c">
+        INSIRA O VALOR DE C <br /><br />
+        <input id="input_c" type="text" />
+      </label>
+      <br /><br /><br />
     </container>
     <container class="resultado">
-        <button id="button_result" onclick="segundoGrau()">Confirmar</button>
-        <br><br>
-        <label for="result" class="resultado">
-            RESULTADO<br>
-            <input type="text" id="input_result" readonly>
-        </label>
+      <button id="button_result" onclick="segundoGrau()">Confirmar</button>
+      <br /><br />
+      <label for="result" class="resultado">
+        RESULTADO<br />
+        <input type="text" id="input_result" readonly />
+      </label>
     </container>
-</body>
-
+  </body>
 </html>

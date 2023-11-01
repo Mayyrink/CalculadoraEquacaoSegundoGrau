@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans:wght@600&display=swap');
+/*font-family: 'Concert One', sans-serif;
+font-family: 'Josefin Sans', sans-serif;*/
+
+
+html{
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color:rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+}
+
+H1{
+    padding-top: 0px;
+    font-size: 70px;
+    font-family: 'Concert One', sans-serif;
+    text-shadow: rgb(54, 54, 54) 0.1em 0.1em 0.2em;
+}
+.background{
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #c95fc9, #bb70bb, #df79df, #d64dd6);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.calculadora{
+ text-align: center;
+ font-family: 'Josefin Sans', sans-serif;
+ font-size: 25px;
+}
+
+#input_a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 76px;
+    width: 150px;
+    height: 73px;
+    text-align: center;
+    border: none;
+    background-color: #f5e6f1;
+    color: #e98bd4;
+    border-radius: 10px;
+}
+#input_b{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 76px;
+    width: 150px;
+    height: 73px;
+    text-align: center;
+    border: none;
+    background-color: #f5e6f1;
+    color: #e98bd4;
+    border-radius: 10px;
+}
+#input_c{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 76px;
+    width: 150px;
+    height: 73px;
+    text-align: center;
+    border: none;
+    background-color: #f5e6f1;
+    color: #e98bd4;
+    border-radius: 10px;
+}
+
+#button_result{
+    background-color: #ac5499;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#button_result:hover{
+    background-color: #f8b1e9;
+    color: #70105b;
+}
+
+#input_result{
+font-family: 'Josefin Sans', sans-serif;
+font-size: 20px;
+ text-align: center;
+ border: none;
+ width: 550px;
+ height: 50px;
+ border-radius: 10px;
+ color: #e98bd4;
+}
+.resultado{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}

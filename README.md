@@ -16,6 +16,6 @@ A calculator that performs quadratic equations.
 
 If you want to test without having to download the files:
 
-Link: http://calculadorado Segundograu.great-site.net/?i=1
+Link: http://calculadoradosegundograu.great-site.net/?i=1
 
 I hosted it through InfinityFree, so the connection will be identified as insecure, but you can inspect the page yourself to check that there is nothing malicious.
